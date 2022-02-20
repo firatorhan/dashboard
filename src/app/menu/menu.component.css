@@ -1,0 +1,42 @@
+.menu {
+    width: 90px;
+    height: 1080px;
+    display: inline-block;
+    background-color: #2D62ED;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  
+    /* list-style-type: none; */
+  }
+	
+  #logo {
+
+    margin-top: 50px;
+    margin-left: 28px;
+    margin-right: 29px;
+    margin-bottom: 128px;
+
+  }
+
+  .click{
+
+    margin-top: 46.5px;
+    margin-bottom: 48.58px;
+  }
+  .noClick{
+
+    margin-top: 46.5px;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 48.58px;
+  }
+
+  #profil {
+
+    height: 50px;
+    margin-top: 125px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+  }
