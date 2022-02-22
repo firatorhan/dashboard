@@ -1,3 +1,10 @@
+.sideBarLeft{
+  width: 90px;
+  height: 1080px;
+  float: left;
+
+}
+
 .menu {
     width: 90px;
     height: 1080px;
@@ -147,3 +154,7 @@
 
 
 }
+
+
+
+/* Sub-Menu Classss */

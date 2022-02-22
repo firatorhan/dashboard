@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -8,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   isActive = 0; //açılır menü için kulladım
-  forSwitch1 = 0;
+  forSwitch1 = 1;
   forSwitch2 = 0;
   forSwitch3 = 0;
   forSwitch4 = 0;
   forSwitch5 = 0;
+  activetext = 0
 
   constructor() { }
 
@@ -23,9 +24,11 @@ export class MenuComponent implements OnInit {
   menuClick(){
     if (this.isActive==0) {
       this.isActive=1;
+
     }else{
       this.isActive=0;
     }
+    
     
   }
   // Açılır menü Bitiş
