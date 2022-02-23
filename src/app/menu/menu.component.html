@@ -124,8 +124,10 @@
   </nav>
 </div>
 <div [ngClass]="{'subMenuOpen':isActive==0, 'subMenuClose':isActive==1}">
-  <app-submenu></app-submenu>
+  <app-submenu [forSwitch1child]="forSwitch1"></app-submenu>
 </div>
 
-
+<div>
+  <app-top-menu [isActiveChild]="isActive"></app-top-menu>
+</div>
 

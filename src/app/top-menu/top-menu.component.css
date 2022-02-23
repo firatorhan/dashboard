@@ -1,0 +1,109 @@
+.topMenuOpen{
+    width: 1825px;
+    height: 70px;
+    background-color: #fff;
+    margin-left: 240px;
+    margin-right: auto;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    padding-left: 71px;
+    z-index: -1;
+    padding-right: 20px;
+    margin-bottom: 7px;
+    
+}
+.topMenuClose{
+    width: 1680px;
+    height: 70px;
+    background-color: #fff;
+    margin-left: 240px;
+    margin-right: auto;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    padding-left: 71px;
+    z-index: -1;
+    display: none;
+}
+
+#magnifying-glass{
+
+    position: relative;
+
+    
+    float: right;
+    
+  }
+  .SearchBar {
+    float: right;
+    padding: 6px;
+    margin-top: 0px;
+    margin-right: 64px;
+    font-size: 17px;
+    width: 340px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid black 1px;
+    text-align: center;  
+  }
+
+  .topBarSelectIcon1{
+      margin-top: 0px;
+  }
+  .topBarSelectIcon2{
+    margin-top: 0px;
+   padding-left: 202px;
+}
+.topBarSelectIcon3{
+    margin-top: 0px;
+    padding-left: 393px;
+}
+
+  .foldersTextActive{
+      float: left;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 21px;
+      margin-left: 10x;
+      color: #272D3B;
+      cursor: pointer;
+  }
+  .foldersText{
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 21px;
+    margin-left: 10x;
+    color: #272D3B;
+    cursor: pointer;
+}
+
+.othersTextActive{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 21px;
+    margin-left: 120px;
+    color: #272D3B;
+    cursor: pointer;
+}
+.othersText{
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 21px;
+    margin-left: 120px;
+    color: #272D3B;
+    cursor: pointer;
+}
+.logOutIcon{
+    float: right;
+    margin-right: 64px;
+    margin-bottom: 18.7px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.natificationsIcon{
+    float: right;
+    margin-right: 64px;
+    margin-bottom: 18.7px;
+    margin-top: 5px;
+    cursor: pointer;
+}

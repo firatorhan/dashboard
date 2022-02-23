@@ -72,6 +72,7 @@
     /* margin-bottom: 40px; */
     color: #fff;
     float: left;
+    
   }
   .profilStatus{
     font-weight: 400;
@@ -142,7 +143,8 @@
       float: left;
       margin: 0px;
       padding: 0px;
-      
+      cursor: pointer;
+
 
 
   }
@@ -151,6 +153,8 @@
     float: left;
     margin: 0px;
     padding: 0px;
+    cursor: pointer;
+
 
 
 }
@@ -158,3 +162,38 @@
 
 
 /* Sub-Menu Classss */
+.subMenuOpen{
+  /* background-color: #F4F7FE; */
+  background-color: var(--mainColor);
+  float: left;
+  width: 370px;
+  height: 1080px;
+  z-index: -1;
+  
+}
+.subMenuClose{
+  /* background-color: #F4F7FE; */
+  background-color: var(--mainColor);
+  float: left;
+  width: 370px;
+  height: 1080px;
+  z-index: -1;
+  display: none;
+  
+}
+
+.subMenuActivityArea{
+  width: 282px;
+  height: 790px;
+  margin-left: 50px;
+  margin-top: 196px;
+ 
+}
+.submenuActivityAreaClose{
+width: 282px;
+height: 790px;
+margin-left: 50px;
+margin-top: 196px;
+visibility: hidden;
+
+}

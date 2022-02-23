@@ -4,7 +4,7 @@
       </svg>      
     <input class="SearchBar" type="text" placeholder="Search..">
 
-    <div class="subMenuActivityArea">
+    <div  [ngClass]="{'subMenuActivityArea':forSwitch1child==1, 'submenuActivityAreaClose':forSwitch1child==0}">
         <div>
             <svg  [ngClass]="{'ActivityTextIconActive':activetext==1, 'ActivityTextIconInActive':activetext==0}" xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6">
                 <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="6" rx="3" fill="#2d62ed"/>
@@ -22,7 +22,7 @@
                     </g>
                   </svg>
                   
-                  <h3 [ngClass]="{'NotificationsTextInActive':activeNatificatiosText==0, 'NotificationsTextActive':activeNatificatiosText==1}" (click)="natificationsTextClick()" >Notifications</h3>
+                  <h3 [ngClass]="{'NotificationsTextInActive':activeNatificationsText==0, 'NotificationsTextActive':activeNatificationsText==1}" (click)="natificationsTextClick()" >Notifications</h3>
                   
               </div>
               <div class="ActivityTodayArea">
@@ -43,19 +43,22 @@
                       </div>
                   </div>   
                     <ul>
-                        <li class="projectListLi" *ngFor="let item of projects"> 
+                        <li [ngClass]="{'projectListLiNatificationClose projectListLi' :activetext==0}" *ngFor="let item of projects"> 
                          
                             <div>
                                 <img class="photoClass"  [src]="item.photo" alt="">
-                               </div> 
+                               </div>
                                 <div>
                                     <h3 class="projectNameText">{{item.name}}</h3>
                                     <h4 class="projectTimeText">{{item.time}}</h4>
-                                </div>
-                          
-                            
+                                </div>   
                         </li>
-
+                        <li [ngClass]="{'projectListLiNatification  projectListLiClose' :activetext==1}" *ngFor="let item of natifications"> 
+                              <div>
+                                  <h3 class="projectNameText">{{item.id}}</h3>
+                                  <h4 class="projectTimeText">{{item.time}}</h4>
+                              </div>   
+                      </li>
                     </ul>
                       
                   </div>
