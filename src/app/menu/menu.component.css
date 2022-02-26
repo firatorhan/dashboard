@@ -2,7 +2,6 @@
   width: 90px;
   height: 1080px;
   float: left;
-
 }
 
 .menu {
@@ -11,6 +10,8 @@
     background-color: #2D62ED;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
+    display: block;
+    float: left;
     
   
     /* list-style-type: none; */
@@ -21,6 +22,8 @@
     background-color: #2D62ED;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
+    display: block;
+    float: left;
   
   }
   #logo {
@@ -39,7 +42,7 @@
     margin-bottom: 48.58px;
     margin-left: 29px;
     margin-right: 188px;
-    
+    display: block;
     
   }
   .noClick{
@@ -168,7 +171,8 @@
   float: left;
   width: 370px;
   height: 1080px;
-  z-index: -1;
+  display: block;
+  
   
 }
 .subMenuClose{
@@ -177,7 +181,7 @@
   float: left;
   width: 370px;
   height: 1080px;
-  z-index: -1;
+  
   display: none;
   
 }

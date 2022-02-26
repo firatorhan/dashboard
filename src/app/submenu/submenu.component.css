@@ -4,17 +4,16 @@
     float: left;
     width: 370px;
     height: 1080px;
-    z-index: -1;
+   
     
   }
   .subMenuClose{
-    /* background-color: #F4F7FE; */
     background-color: var(--mainColor);
     float: left;
     width: 370px;
     height: 1080px;
-    z-index: -1;
     visibility: hidden;
+    
     
   }
 
