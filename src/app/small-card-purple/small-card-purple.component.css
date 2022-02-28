@@ -1,0 +1,37 @@
+.smalCardPurple{
+    width: 160px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #7D00B5;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    float: left;
+    
+}
+
+.icon1{
+
+    height: 60px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.text{
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF;
+    width: 150px;
+    padding-left: 16px;
+}
+.smallText{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    width: 150px;
+    padding-left: 16px;
+    margin-right: 81px;
+}
+.icon2{
+  float:right;
+  margin-right: 16px;
+  margin-top: 16px;
+}

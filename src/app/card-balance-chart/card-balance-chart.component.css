@@ -1,0 +1,42 @@
+.cardBalance{
+    width: 540px;
+    height: 317px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    float: left;
+    margin-left: 32px;
+    margin-right: 60px;
+ 
+}
+
+.topLeft{
+    font-size: 26px;
+    font-weight: bold;
+    color: #272D3B;
+    width: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 32px;
+
+}
+.text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #272D3B;
+    width: 100px;
+    
+}
+.topMain{
+    position: relative;
+    top: 20px;
+    left: 32px;
+    width: 329px;
+    display: flex;
+}
+.masterCardIcon{
+    margin-right: 0px;
+    margin-top: 32px;
+   margin-right: 20px;
+    float: right;
+}

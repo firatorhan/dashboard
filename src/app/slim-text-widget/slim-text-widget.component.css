@@ -1,0 +1,74 @@
+.twoComponent{
+    width: 380px;
+    float: left;
+}
+.slimTextWidget{
+    width: 380px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    float: left;
+    margin-bottom: 41px;
+}
+
+.statusWidget{
+    width: 380px;
+    height: 160px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    float: left;
+}
+#More_Button{
+   
+    position: relative;
+    left: 125px;
+    top: 25px;
+}
+
+
+.text1{
+    font-size: 20x;
+    font-weight: bold;
+    color: #272D3B;
+    margin-top: 26px;
+    margin-left: 32px;
+    float: left;
+   
+    
+}
+
+.text2{
+    font-size: 14x;
+    font-weight: 500;
+    color: #272D3B;
+   
+}
+
+#chart{
+    float: left;
+    width: 175px;
+}
+.statusText{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 23px;
+    
+}
+
+.growthText{
+  font-size: 18px;
+  
+}
+.numberText{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 29px;
+}
+.icon{
+    position: relative;
+    left: 85px;
+    bottom: 55px;
+    
+}
