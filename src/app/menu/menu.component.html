@@ -18,7 +18,7 @@
       <div>
         <ul>
           <!-- Home İconu -->
-          <li><button [ngClass]="{'noClick': forSwitch1==0,'click':forSwitch1==1}" (click)="homeSwitchClick()" >
+          <li><button routerLink="" [ngClass]="{'noClick': forSwitch1==0,'click':forSwitch1==1}" (click)="homeSwitchClick()" >
             <div>
               <svg [ngClass]="{'svgLineClose': forSwitch1==0,'svgLineOpen':forSwitch1==1}" xmlns="http://www.w3.org/2000/svg" width="4" height="33" viewBox="0 0 4 34">
                 <line id="Line_8" data-name="Line 8" y2="30" transform="translate(2 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
@@ -38,7 +38,7 @@
           
         </li>
            <!-- Folder İconu -->
-          <li><button class="noClick" (click)="folderSwitchClick()">
+          <li><button routerLink="/folder" class="noClick" (click)="folderSwitchClick()">
             <div>
               <svg [ngClass]="{'svgLineClose': forSwitch2==0,'svgLineOpen':forSwitch2==1}" xmlns="http://www.w3.org/2000/svg" width="4" height="29" viewBox="0 0 4 34">
                 <line id="Line_8" data-name="Line 8" y2="30" transform="translate(2 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
@@ -54,7 +54,7 @@
           <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch2==0}">Files</div>
           </button></li>
            <!-- AppyPie İconu -->
-          <li><button class="noClick" (click)="appyPieSwitchClick()">
+          <li><button routerLink="/pie-chart" class="noClick" (click)="appyPieSwitchClick()">
            <div>
             <svg [ngClass]="{'svgLineClose': forSwitch3==0,'svgLineOpen':forSwitch3==1}" xmlns="http://www.w3.org/2000/svg" width="4" height="34" viewBox="0 0 4 34">
               <line id="Line_8" data-name="Line 8" y2="30" transform="translate(2 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
@@ -72,7 +72,7 @@
           <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch3==0}">Charts</div>
         </button></li>
           <!-- Setting-1 İconu -->
-          <li><button class="noClick" (click)="setting1SwitchClick()">
+          <li><button routerLink="/settings1" class="noClick" (click)="setting1SwitchClick()">
          <div>
           <svg [ngClass]="{'svgLineClose': forSwitch4==0,'svgLineOpen':forSwitch4==1}" xmlns="http://www.w3.org/2000/svg" width="4" height="34" viewBox="0 0 4 34">
             <line id="Line_8" data-name="Line 8" y2="30" transform="translate(2 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
@@ -91,7 +91,7 @@
           <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch4==0}">Filter</div>
         </button></li>
           <!-- Setting-2 İconu -->
-          <li><button class="noClick" (click)="setting2SwitchClick()">
+          <li><button routerLink="/settings2" class="noClick" (click)="setting2SwitchClick()">
             
            <div>
             <svg [ngClass]="{'svgLineClose': forSwitch5==0,'svgLineOpen':forSwitch5==1}" xmlns="http://www.w3.org/2000/svg" width="4" height="34" viewBox="0 0 4 34">
@@ -112,7 +112,7 @@
         </button></li>
         </ul>
         <div>
-          <a class="svgIconClick" href=""><img id="profil" src="\assets\icons\Ellipse 1.png" alt=""></a>
+          <a class="svgIconClick" routerLink="/profil"><img id="profil" src="\assets\icons\Ellipse 1.png" alt=""></a>
           
           <div [ngClass]="{'closeMenuIconText': isActive==0, 'profilName':isActive==1}">Fırat Orhan</div>
           <div [ngClass]="{'closeMenuIconText': isActive==0, 'profilStatus':isActive==1}">Active</div>

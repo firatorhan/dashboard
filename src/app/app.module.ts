@@ -14,6 +14,20 @@ import { SmallCardBlueComponent } from './small-card-blue/small-card-blue.compon
 import { SmallCardPurpleComponent } from './small-card-purple/small-card-purple.component';
 import { HorisontalLineChartComponent } from './horisontal-line-chart/horisontal-line-chart.component';
 import { SlimTextWidgetComponent } from './slim-text-widget/slim-text-widget.component';
+import { CalendarWidgetComponent } from './calendar-widget/calendar-widget.component';
+import { FolderComponent } from './folder/folder.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
+import { Settings1Component } from './settings1/settings1.component';
+import { Settings2Component } from './settings2/settings2.component';
+import { ProfilComponent } from './profil/profil.component';
+import { MatSliderModule } from '@angular/material/slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatNativeDateModule} from '@angular/material/core';
+import {HttpClientModule} from '@angular/common/http';
+import {MatCardModule} from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { HomeComponent } from './home/home.component';
+
 
 
 @NgModule({
@@ -29,6 +43,13 @@ import { SlimTextWidgetComponent } from './slim-text-widget/slim-text-widget.com
     SmallCardPurpleComponent,
     HorisontalLineChartComponent,
     SlimTextWidgetComponent,
+    CalendarWidgetComponent,
+    FolderComponent,
+    PieChartComponent,
+    Settings1Component,
+    Settings2Component,
+    ProfilComponent,
+    HomeComponent,
     
   ],
   imports: [
@@ -36,7 +57,15 @@ import { SlimTextWidgetComponent } from './slim-text-widget/slim-text-widget.com
     AppRoutingModule,
     NgApexchartsModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    MatSliderModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatNativeDateModule,
+    MatCardModule,
+    MatDatepickerModule,
+  
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

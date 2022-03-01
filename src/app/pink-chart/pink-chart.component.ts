@@ -93,7 +93,7 @@ export class PinkChartComponent {
         align: "left",
         style: {
           fontSize: "16px",
-          color: "#666"
+          color: "#FF007C"
         }
       },
       

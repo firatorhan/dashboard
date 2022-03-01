@@ -41,9 +41,13 @@ export class LineChartComponent {
       series: [
         {
           name: "Desktops",
-          data: [50, 40, 60]
-        }
+          data: [50, 40, 60],
+         
+          
+        },
+       
       ],
+      
       chart: {
         toolbar: {
           show: false},
@@ -52,13 +56,18 @@ export class LineChartComponent {
         type: "line",
         zoom: {
           enabled: false
-        }
+        },
+        
+        foreColor: '#29313A'
+        
       },
+    
       dataLabels: {
         enabled: false
       },
       stroke: {
-        curve: "straight"
+        curve: "straight",
+        colors:['#29313A']
       },
       title: {
         

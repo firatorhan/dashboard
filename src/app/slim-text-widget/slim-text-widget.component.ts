@@ -8,7 +8,8 @@ import {
   ApexXAxis,
   ApexFill,
   ApexLegend,
-  ApexNonAxisChartSeries
+  ApexNonAxisChartSeries,
+  ApexStroke
 } from "ng-apexcharts";
 
 export type ChartOptions = {
@@ -19,6 +20,7 @@ export type ChartOptions = {
   xaxis: ApexXAxis;
   plotOptions: ApexPlotOptions;
   labels: string[];
+  stroke:ApexStroke;
 };
 @Component({
   selector: 'app-slim-text-widget',
@@ -33,9 +35,10 @@ export class SlimTextWidgetComponent {
   constructor() {
     this.chartOptions = {
       series: [70],
+      
       chart: {
         height: 185,
-        type: "radialBar"
+        type: "radialBar",
       },
       plotOptions: {
         radialBar: {
@@ -43,7 +46,9 @@ export class SlimTextWidgetComponent {
             size: "70%"
           }
         }
+        
       },
+      
       labels: ["Cricket"]
     };
   }

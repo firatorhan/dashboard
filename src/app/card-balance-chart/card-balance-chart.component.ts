@@ -61,7 +61,9 @@ export class CardBalanceChartComponent {
         enabled: false
       },
       stroke: {
-        curve: "straight"
+        curve: "straight",
+        colors:['#FF007C'],
+        
       },
       title: {
         text: "",

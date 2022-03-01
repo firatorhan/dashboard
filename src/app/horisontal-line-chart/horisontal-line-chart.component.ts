@@ -7,7 +7,8 @@ import {
   ApexPlotOptions,
   ApexXAxis,
   ApexFill,
-  ApexLegend
+  ApexLegend,
+  ApexStroke
 } from "ng-apexcharts";
 
 export type ChartOptions = {
@@ -17,6 +18,7 @@ export type ChartOptions = {
   legend: ApexLegend;
   xaxis: ApexXAxis;
   plotOptions: ApexPlotOptions;
+  stroke: ApexStroke;
 };
 
 @Component({
@@ -125,7 +127,8 @@ export class HorisontalLineChartComponent  {
           opacityFrom: 1,
           opacityTo: 1,
           stops: [50, 0, 100, 100]
-        }
+        },
+        
       },
       legend: {
         position: "top",
