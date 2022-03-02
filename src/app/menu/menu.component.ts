@@ -24,7 +24,11 @@ export class MenuComponent implements OnInit {
   menuClick(){
     if (this.isActive==0) {
       this.isActive=1;
-
+      this.forSwitch1=0;
+      this.forSwitch2 = 0;
+      this.forSwitch3 = 0;
+      this.forSwitch4 = 0;
+      this.forSwitch5 = 0;
     }else{
       this.isActive=0;
     }
@@ -104,6 +108,8 @@ export class MenuComponent implements OnInit {
       this.forSwitch5=1;
     }
   }
+ 
+  
   }
 
 

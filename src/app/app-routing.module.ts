@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { FilesComponent } from './files/files.component';
 import { FolderComponent } from './folder/folder.component';
 import { HomeComponent } from './home/home.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
@@ -15,8 +16,8 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
-    path:'folder',
-    component:FolderComponent
+    path:'files',
+    component:FilesComponent
   },
   {
     path:'pie-chart',
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path:'profil',
     component:ProfilComponent
+  },
+  {
+    path:'folders',
+    component:FolderComponent
   }
 ];
 

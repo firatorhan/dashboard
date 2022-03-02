@@ -27,6 +27,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {MatCardModule} from '@angular/material/card';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HomeComponent } from './home/home.component';
+import { WelcomeBackComponent } from './welcome-back/welcome-back.component';
+import { FilesComponent } from './files/files.component';
 
 
 
@@ -50,6 +52,8 @@ import { HomeComponent } from './home/home.component';
     Settings2Component,
     ProfilComponent,
     HomeComponent,
+    WelcomeBackComponent,
+    FilesComponent,
     
   ],
   imports: [

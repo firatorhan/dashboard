@@ -1,0 +1,60 @@
+
+.titleText{
+    padding-top: 38px;
+    padding-left:32px;
+    color: #272D3B ;
+    font-size:36px;
+    font-weight: 700;
+    float: left;
+    width: 1402px;
+    margin-bottom: 32px;
+
+}
+
+.welcomeArea{
+
+    background-color:#fff;
+    width: 980px;
+    height: 200px;
+    float: left;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    border-radius: 20px;
+    margin-left: 32px;
+    margin-right: 62px;
+    margin-bottom: 21px;
+    
+}
+.welcomeBack{
+    margin-top: 20px;
+    margin-left: 64px;
+    margin-right: 50px;
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: bold;
+    float: left;
+
+}
+
+.subText{
+    margin-top: 40px; 
+}
+.subText1{
+    list-style-image: url(/assets/icons/Ellipse-180.png);
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.subText1Li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.welcomeImg{
+    float: right;
+    margin-right: 90px;
+    position: relative;
+    left:-20px;
+    bottom: 40px;
+
+}
