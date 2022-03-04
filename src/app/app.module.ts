@@ -29,7 +29,8 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HomeComponent } from './home/home.component';
 import { WelcomeBackComponent } from './welcome-back/welcome-back.component';
 import { FilesComponent } from './files/files.component';
-import { MatTableModule } from '@angular/material/table'  
+import { MatTableModule } from '@angular/material/table';
+import { TotalSystemChartComponent } from './total-system-chart/total-system-chart.component'  
 
 
 
@@ -55,6 +56,7 @@ import { MatTableModule } from '@angular/material/table'
     HomeComponent,
     WelcomeBackComponent,
     FilesComponent,
+    TotalSystemChartComponent,
     
   ],
   imports: [

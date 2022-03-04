@@ -51,10 +51,32 @@ button{
   body{
     font-family: 'Montserrat', sans-serif;
   }
-  :root {
-      --mainColor:#F4F7FE;
-  }
+ 
   a{
       text-decoration: none;
+      
   }
  
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+:root {
+    --subMenuBackgraund:#F4F7FE;
+    
+}
+
+html[data-theme='light'] {
+    --menu-text-color: #fff;
+    --menu-background-color:#2D62ED;
+    --submenuBackgraund:#F4F7FE;
+    
+    
+}
+
+html[data-theme='dark'] {
+    
+    
+}

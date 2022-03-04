@@ -8,3 +8,8 @@
     
     
 }
+.mainContentArea{
+    display: flex;
+    justify-content: left;
+    width: 1550px;
+}

@@ -1,6 +1,6 @@
 .subMenuOpen{
     /* background-color: #F4F7FE; */
-    background-color: var(--mainColor);
+    background-color: #F4F7FE;
     float: left;
     width: 370px;
     height: 1080px;
@@ -8,7 +8,7 @@
     
   }
   .subMenuClose{
-    background-color: var(--mainColor);
+    background-color: #F4F7FE;
     float: left;
     width: 370px;
     height: 1080px;
@@ -190,4 +190,13 @@
     font-size: 16px;
     font-weight: 400;
     
+  }
+  ul {
+  
+  
+    margin-block-start: 0em; 
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
   }

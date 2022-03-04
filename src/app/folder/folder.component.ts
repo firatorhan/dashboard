@@ -12,6 +12,7 @@ import {
   ApexFill,
   ApexMarkers,
   ApexYAxis
+  
 } from "ng-apexcharts";
 
 export type ChartOptions = {
@@ -25,6 +26,8 @@ export type ChartOptions = {
   yaxis: ApexYAxis;
   stroke: ApexStroke;
   title: ApexTitleSubtitle;
+  labels: string[];
+  
 };
 
 
@@ -40,6 +43,7 @@ export class FolderComponent  {
   @ViewChild("chart") chart: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
 
+  
   constructor() {
     this.chartOptions = {
       series: [
