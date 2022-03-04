@@ -29,6 +29,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HomeComponent } from './home/home.component';
 import { WelcomeBackComponent } from './welcome-back/welcome-back.component';
 import { FilesComponent } from './files/files.component';
+import { MatTableModule } from '@angular/material/table'  
 
 
 
@@ -68,6 +69,8 @@ import { FilesComponent } from './files/files.component';
     MatNativeDateModule,
     MatCardModule,
     MatDatepickerModule,
+    MatTableModule,
+  
   
     
   ],

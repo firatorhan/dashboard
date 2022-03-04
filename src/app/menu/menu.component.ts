@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, Output } from '@angular/core';
 
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -31,6 +32,9 @@ export class MenuComponent implements OnInit {
       this.forSwitch5 = 0;
     }else{
       this.isActive=0;
+      window.location.href= "/home"
+      
+      
     }
     
     
