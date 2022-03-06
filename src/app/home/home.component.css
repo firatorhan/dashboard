@@ -1,0 +1,54 @@
+.homeComponent{
+    display: flex;
+    justify-content:left;
+}
+
+.leftColumn{
+display: flex;
+flex-direction: column;
+margin-left: 32px ;
+margin-bottom: 17px;
+margin-right: 37px;
+width: 980px;
+}
+
+.chartSide{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.leftChartSide{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftChart1{
+    margin-top: 21px;
+}
+.leftChart2{
+    margin-top: 17px;
+}
+
+.rightChartside{
+    margin-top: 21px;
+
+    
+}
+
+.rightChart1{
+margin-bottom: 45px;
+}
+
+.rightColumn{
+    margin-top: 90px;
+}
+.pinkChart{
+    margin-bottom: 18px;
+}
+.blue-purple-widgets {
+display: flex;
+justify-content: space-between;
+margin-bottom: 24px;
+}
+

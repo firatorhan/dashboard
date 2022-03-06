@@ -1,8 +1,6 @@
 #chart {
   width: 329px;
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+ 
   height: 100px;
 }
 .pinkBackround{
@@ -11,7 +9,7 @@
   height: 200px;
   border-radius: 20px;
   background-color: #FF007C;
-  float: left;
+  
   box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
 
 

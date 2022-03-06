@@ -4,12 +4,9 @@
     padding-right: 20x;
     margin-left: 240px;
     width: 1825px;
-    
-    
-    
-}
-.mainContentArea{
     display: flex;
     justify-content: left;
     width: 1550px;
+    
+    
 }

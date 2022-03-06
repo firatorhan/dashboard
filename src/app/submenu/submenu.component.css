@@ -16,8 +16,6 @@
     
     
   }
-
-
 .SearchBar {
     float: left;
     padding: 6px;
@@ -37,7 +35,6 @@
     margin-left: 70px;
     margin-top: 60px;
   }
-
   .subMenuActivityArea{
       width: 282px;
       height: 790px;
@@ -99,9 +96,6 @@
     cursor: pointer;
     
 }
-
-
-
 .projectNameText{
     float: left;
    height: 25px;

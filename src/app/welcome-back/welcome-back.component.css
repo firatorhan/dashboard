@@ -1,7 +1,7 @@
 
 .titleText{
     padding-top: 38px;
-    padding-left:32px;
+    
     color: #272D3B ;
     font-size:36px;
     font-weight: 700;
@@ -19,9 +19,7 @@
     float: left;
     box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
     border-radius: 20px;
-    margin-left: 32px;
-    margin-right: 62px;
-    margin-bottom: 21px;
+    
     
 }
 .welcomeBack{

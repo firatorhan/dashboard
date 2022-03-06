@@ -1,13 +1,47 @@
 
 
- <div >
-    <app-welcome-back></app-welcome-back>
-    <app-pink-chart></app-pink-chart>
-    <app-card-balance-chart></app-card-balance-chart>
-    <app-line-chart></app-line-chart>
-    <app-small-card-blue></app-small-card-blue>
-    <app-small-card-purple></app-small-card-purple>
-    <app-horisontal-line-chart></app-horisontal-line-chart>
-    <app-slim-text-widget></app-slim-text-widget>
-    <app-calendar-widget></app-calendar-widget>
+
+  <div class="homeComponent">
+    <div class="leftColumn">  
+      <div>
+        <app-welcome-back></app-welcome-back>
+      </div>
+      <div class="chartSide">
+        <div class="leftChartSide">
+          <div class="leftChart1">
+            <app-card-balance-chart></app-card-balance-chart>
+          </div>
+          <div class="leftChart2">
+            <app-horisontal-line-chart></app-horisontal-line-chart>
+
+          </div>
+        </div>
+        <div class="rightChartside">
+          <div class="rightChart1">
+            <app-line-chart></app-line-chart>
+          </div>
+          <div class="rightChart2">
+            <app-slim-text-widget></app-slim-text-widget>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="rightColumn">
+      <div class="pinkChart">
+        <app-pink-chart></app-pink-chart>
+      </div>
+      <div class="blue-purple-widgets">
+        <div>
+          <app-small-card-blue></app-small-card-blue>
+
+        </div>
+        <div>
+          <app-small-card-purple></app-small-card-purple>
+        </div>
+      </div>
+      <div class="calenderWidget">
+        <app-calendar-widget></app-calendar-widget>
+      </div>
+    </div>
   </div>
