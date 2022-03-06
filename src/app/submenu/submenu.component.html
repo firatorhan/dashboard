@@ -1,69 +1,166 @@
 <div [ngClass]="{'subMenuOpen':true, 'subMenuClose':false}">
-    <svg id="magnifying-glass" xmlns="http://www.w3.org/2000/svg" width="20.16" height="20.164" viewBox="0 0 20.16 20.164">
-        <path id="Path_42" data-name="Path 42" d="M20.036,19.136l-4.9-4.9a8.6,8.6,0,1,0-.849.849l4.9,4.9a.608.608,0,0,0,.425.179.589.589,0,0,0,.425-.179A.6.6,0,0,0,20.036,19.136ZM1.253,8.6a7.391,7.391,0,1,1,7.391,7.4A7.4,7.4,0,0,1,1.253,8.6Z" transform="translate(-0.05 0)" fill="#272d3b"/>
-      </svg>      
-    <input class="SearchBar" type="text" placeholder="Search..">
+  <svg id="magnifying-glass" xmlns="http://www.w3.org/2000/svg" width="20.16" height="20.164"
+    viewBox="0 0 20.16 20.164">
+    <path id="Path_42" data-name="Path 42"
+      d="M20.036,19.136l-4.9-4.9a8.6,8.6,0,1,0-.849.849l4.9,4.9a.608.608,0,0,0,.425.179.589.589,0,0,0,.425-.179A.6.6,0,0,0,20.036,19.136ZM1.253,8.6a7.391,7.391,0,1,1,7.391,7.4A7.4,7.4,0,0,1,1.253,8.6Z"
+      transform="translate(-0.05 0)" fill="#272d3b" />
+  </svg>
+  <input class="SearchBar" type="text" placeholder="Search..">
 
-    <div  [ngClass]="{'subMenuActivityArea':forSwitch1child==1, 'submenuActivityAreaClose':forSwitch1child==0}">
-        <div>
-            <svg  [ngClass]="{'ActivityTextIconActive':activetext==1, 'ActivityTextIconInActive':activetext==0}" xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6">
-                <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="6" rx="3" fill="#2d62ed"/>
-              </svg>
-              <svg  [ngClass]="{'ActivityTextIconActive':activetext==0, 'ActivityTextIconInActive':activetext==1}" xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6">
-                <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="6" rx="3" fill="#2d62ed"/>
-              </svg>
+  <div [ngClass]="{'subMenuActivityArea':forSwitch1child==1, 'submenuActivityAreaClose':forSwitch1child==0}">
+    <div>
+      <svg [ngClass]="{'ActivityTextIconActive':activetext==1, 'ActivityTextIconInActive':activetext==0}"
+        xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6">
+        <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="6" rx="3" fill="#2d62ed" />
+      </svg>
+      <svg [ngClass]="{'ActivityTextIconActive':activetext==0, 'ActivityTextIconInActive':activetext==1}"
+        xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6">
+        <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="6" rx="3" fill="#2d62ed" />
+      </svg>
 
-              <div>
-                <h3 [ngClass]="{'ActivityTextActive':activetext==1, 'ActivityTextInActive':activetext==0}" (click)="activeTextClick()">Activity</h3>
-                <svg (click)="activeTextClick()" style="padding-left: 8px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <g id="Group_98" data-name="Group 98" transform="translate(-368 -208)">
-                      <circle id="Ellipse_59" data-name="Ellipse 59" cx="12" cy="12" r="12" transform="translate(368 208)" fill="#2d62ed"/>
-                      <text id="_12" data-name="12" transform="translate(373.091 225)" fill="#fff" font-size="14" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">12</tspan></text>
-                    </g>
-                  </svg>
-                  
-                  <h3 [ngClass]="{'NotificationsTextInActive':activeNatificationsText==0, 'NotificationsTextActive':activeNatificationsText==1}" (click)="natificationsTextClick()" >Notifications</h3>
-                  
-              </div>
-              <div class="ActivityTodayArea">
-                     <div class="dropdown">
-                        <span class="todayText">Today</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18.828" height="10.828" viewBox="0 0 18.828 10.828">
-                            <g id="Group_57" data-name="Group 57" transform="translate(17.414 1.414) rotate(90)">
-                              <line id="Line_10" data-name="Line 10" x2="8" y2="8" fill="none" stroke="#272d3b" stroke-linecap="round" stroke-width="2"/>
-                              <line id="Line_11" data-name="Line 11" y1="8" x2="8" transform="translate(0 8)" fill="none" stroke="#272d3b" stroke-linecap="round" stroke-width="2"/>
-                            </g>
-                          </svg>
-                          
-                        <div class="dropdown-content">
-                         <div><a class="dropDownText" href="">Yesterday</a></div> 
-                         <div><a class="dropDownText" href="">Last Week</a></div> 
-                         <div><a class="dropDownText" href="">Last Month</a></div> 
-                        </div>
-                      </div>
-                  </div>   
-                    <ul>
-                        <li [ngClass]="{'projectListLiNatificationClose projectListLi' :activetext==0}" *ngFor="let item of projects"> 
-                         
-                            <div>
-                                <img class="photoClass"  [src]="item.photo" alt="">
-                               </div>
-                                <div>
-                                    <h3 class="projectNameText">{{item.name}}</h3>
-                                    <h4 class="projectTimeText">{{item.time}}</h4>
-                                </div>   
-                        </li>
-                        <li [ngClass]="{'projectListLiNatification  projectListLiClose' :activetext==1}" *ngFor="let item of natifications"> 
-                              <div>
-                                  <h3 class="projectNameText">{{item.id}}</h3>
-                                  <h4 class="projectTimeText">{{item.time}}</h4>
-                              </div>   
-                      </li>
-                    </ul>
-                      
-                  </div>
+      <div>
+        <h3 [ngClass]="{'ActivityTextActive':activetext==1, 'ActivityTextInActive':activetext==0}"
+          (click)="activeTextClick()">Activity</h3>
+        <svg (click)="activeTextClick()" style="padding-left: 8px;" xmlns="http://www.w3.org/2000/svg" width="24"
+          height="24" viewBox="0 0 24 24">
+          <g id="Group_98" data-name="Group 98" transform="translate(-368 -208)">
+            <circle id="Ellipse_59" data-name="Ellipse 59" cx="12" cy="12" r="12" transform="translate(368 208)"
+              fill="#2d62ed" />
+            <text id="_12" data-name="12" transform="translate(373.091 225)" fill="#fff" font-size="14"
+              font-family="Montserrat-Medium, Montserrat" font-weight="500">
+              <tspan x="0" y="0">12</tspan>
+            </text>
+          </g>
+        </svg>
 
-              </div>
-                         
+        <h3
+          [ngClass]="{'NotificationsTextInActive':activeNatificationsText==0, 'NotificationsTextActive':activeNatificationsText==1}"
+          (click)="natificationsTextClick()">Notifications</h3>
+
+      </div>
+      <div class="ActivityTodayArea">
+        <div class="dropdown">
+          <span class="todayText">Today</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18.828" height="10.828" viewBox="0 0 18.828 10.828">
+            <g id="Group_57" data-name="Group 57" transform="translate(17.414 1.414) rotate(90)">
+              <line id="Line_10" data-name="Line 10" x2="8" y2="8" fill="none" stroke="#272d3b" stroke-linecap="round"
+                stroke-width="2" />
+              <line id="Line_11" data-name="Line 11" y1="8" x2="8" transform="translate(0 8)" fill="none"
+                stroke="#272d3b" stroke-linecap="round" stroke-width="2" />
+            </g>
+          </svg>
+
+          <div class="dropdown-content">
+            <div><a class="dropDownText" href="">Yesterday</a></div>
+            <div><a class="dropDownText" href="">Last Week</a></div>
+            <div><a class="dropDownText" href="">Last Month</a></div>
+          </div>
         </div>
+      </div>
+      <ul>
+        <li [ngClass]="{'projectListLiNatificationClose projectListLi' :activetext==0}" *ngFor="let item of projects">
+          <div class="activityContent">
+            <div class="photoClass" >
+              <img class="photoClass" [src]="item.photo" alt="">
+            </div>
+            <div>
+              <div class="projectNameText">
+                {{item.name}}
+              </div>
+              <div class="projectTimeText">
+                {{item.time}}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li [ngClass]="{'projectListLiNatification  projectListLiClose' :activetext==1}"
+          *ngFor="let item of natifications">
+          <div class="natificationGroup">
+            <h3 class="projectNameText">{{item.id}}</h3>
+            <h4 class="projectTimeText">{{item.time}}</h4>
+          </div>
+        </li>
+      </ul>
 
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- 
+<div [ngClass]="{'subMenuOpen':true, 'subMenuClose':false}">
+  <div class="searchBarDiv">
+    <svg id="magnifying-glass" xmlns="http://www.w3.org/2000/svg" width="20.16" height="20.164"
+      viewBox="0 0 20.16 20.164">
+      <path id="Path_42" data-name="Path 42"
+        d="M20.036,19.136l-4.9-4.9a8.6,8.6,0,1,0-.849.849l4.9,4.9a.608.608,0,0,0,.425.179.589.589,0,0,0,.425-.179A.6.6,0,0,0,20.036,19.136ZM1.253,8.6a7.391,7.391,0,1,1,7.391,7.4A7.4,7.4,0,0,1,1.253,8.6Z"
+        transform="translate(-0.05 0)" fill="#272d3b" />
+    </svg>
+    <input class="SearchBar" type="text" placeholder="Search..">
+  </div>
+
+  <div class="activityNatificationDiv">
+    <div class="activity">
+      <div>
+        <svg [ngClass]="{'ActivityTextIconActive':activetext==1, 'ActivityTextIconInActive':activetext==0}"
+        xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6">
+        <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="6" rx="3" fill="#2d62ed" />
+      </svg>
+      </div>
+      <div [ngClass]="{'ActivityTextActive':activetext==1, 'ActivityTextInActive':activetext==0}"
+      (click)="activeTextClick()">Activity
+      </div>
+    </div>
+    <div class="natification">
+      <div [ngClass]="{'NotificationsTextInActive':activeNatificationsText==0, 'NotificationsTextActive':activeNatificationsText==1}"
+      (click)="natificationsTextClick()">
+      Notifications
+      </div>
+    </div>
+  </div>
+  <div class="activityDropdownDiv">
+    <div class="ActivityTodayArea">
+      <div class="dropdown">
+        <span class="todayText">Today</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18.828" height="10.828" viewBox="0 0 18.828 10.828">
+          <g id="Group_57" data-name="Group 57" transform="translate(17.414 1.414) rotate(90)">
+            <line id="Line_10" data-name="Line 10" x2="8" y2="8" fill="none" stroke="#272d3b" stroke-linecap="round"
+              stroke-width="2" />
+            <line id="Line_11" data-name="Line 11" y1="8" x2="8" transform="translate(0 8)" fill="none"
+              stroke="#272d3b" stroke-linecap="round" stroke-width="2" />
+          </g>
+        </svg>
+
+        <div class="dropdown-content">
+          <div><a class="dropDownText" href="">Yesterday</a></div>
+          <div><a class="dropDownText" href="">Last Week</a></div>
+          <div><a class="dropDownText" href="">Last Month</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contentDiv">
+    <ul>
+      <li [ngClass]="{'projectListLiNatificationClose projectListLi' :activetext==0}" *ngFor="let item of projects">
+
+        <div>
+          <img class="photoClass" [src]="item.photo" alt="">
+        </div>
+        <div>
+          <h3 class="projectNameText">{{item.name}}</h3>
+          <h4 class="projectTimeText">{{item.time}}</h4>
+        </div>
+      </li>
+      <li [ngClass]="{'projectListLiNatification  projectListLiClose' :activetext==1}"
+        *ngFor="let item of natifications">
+        <div>
+          <h3 class="projectNameText">{{item.id}}</h3>
+          <h4 class="projectTimeText">{{item.time}}</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div> -->

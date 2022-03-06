@@ -1,6 +1,7 @@
 .homeComponent{
     display: flex;
     justify-content:left;
+    
 }
 
 .leftColumn{
@@ -42,6 +43,7 @@ margin-bottom: 45px;
 
 .rightColumn{
     margin-top: 90px;
+    width: 380px;
 }
 .pinkChart{
     margin-bottom: 18px;

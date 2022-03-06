@@ -20,6 +20,7 @@
     position: relative;
     left: 200px;
     top: 35px;
+    cursor: pointer;
 }
 #chart{
     margin-left: 25px;
