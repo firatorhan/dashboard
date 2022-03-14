@@ -5,7 +5,7 @@
     border-radius: var(--borderRadius);
     background-color: #FFF;
     box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
-    
+    display: block;
 
 }
 .demo-inline-calendar-card {
@@ -20,4 +20,31 @@
     margin-top: 10px;
     margin-left: 10px;
     float: left;
+}
+@media only screen and (max-width: 1412px){
+
+  .calendarWitget{
+    display: flex;
+    width: 292px;
+    height: 340px;
+    border-radius: var(--borderRadius);
+    background-color: #FFF;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+    display: block;
+
+}
+.demo-inline-calendar-card {
+    width: 270px;
+    padding: 5px;
+    box-shadow: none;
+  }
+  .title{
+    font-size: var(--fontSize-26);
+    font-weight: bold;
+    color: #272D3B;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
 }

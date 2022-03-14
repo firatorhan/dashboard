@@ -4,8 +4,6 @@
     border-radius: var(--borderRadius);
     background-color: #FFF;
     box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
-    
-
 }
 .title{
     font-size: var(--fontSize-26);
@@ -16,9 +14,8 @@
     float: left;
 }
 .icon{
-
     position: relative;
-    left: 140px;
+    left: 160px;
     top: 35px;
     cursor: pointer;
 }

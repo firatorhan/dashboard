@@ -25,6 +25,7 @@ export type ChartOptions = {
   yaxis: ApexYAxis;
   stroke: ApexStroke;
   title: ApexTitleSubtitle;
+  
 };
 
 @Component({
@@ -33,7 +34,7 @@ export type ChartOptions = {
   styleUrls: ['./pink-chart.component.css']
 })
 export class PinkChartComponent {
-
+  
   @ViewChild("chart") chart: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
 

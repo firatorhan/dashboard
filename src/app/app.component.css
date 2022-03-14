@@ -1,6 +1,27 @@
 .mainContentArea{
     background-color: #fff;
-    height: 100vh;
     padding-right: 20x;
     margin-left: 240px;
+    
+    
+}
+
+@media only screen and (max-width:1411px){
+
+    
+    .fullScreen{
+        
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .mainContentArea{
+       
+        
+        margin-left: auto;
+        
+    }
+    .fullScreen{
+        
+    }
 }

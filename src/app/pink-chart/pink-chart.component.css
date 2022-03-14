@@ -1,4 +1,7 @@
-
+#chart{
+  height: 50px;
+  width:20px,
+}
 .pinkBackround{
   display: flex;
   width: 292px;
@@ -10,7 +13,7 @@
 }
 .thisMonth{
   position: relative;
-  top: 8px;
+  top: 35px;
   left: 23.36px;
   width: 249px;
   display: flex;
@@ -21,7 +24,7 @@
   font-weight: bold;
   color: #FFF;
   margin-bottom: 5px;
-  width: 100px;
+  width: 65px;
 }
 .text{
   font-size: 10px;
@@ -33,4 +36,44 @@
 .icon{
   margin-left: 146px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1411px) {
+ 
+  .pinkBackround{
+    display: flex;
+    width: 400px;
+    height: 146px;
+    border-radius: var(--borderRadius);
+    background-color: #FF007C;
+    box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+  
+  }
+  .thisMonth{
+    position: relative;
+    top: 35px;
+    left: 23.36px;
+    width: 400px;
+    display: flex;
+    
+  }
+  .number{
+    font-size: var(--fontSize-20);
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 5px;
+    width: 60px;
+  }
+  .text{
+    font-size: 10px;
+    font-weight: 500;
+    color: #FFF;
+    width: 100px;
+    
+  }
+  
+  .icon{
+    margin-left: 250px;
+    cursor: pointer;
+  }
 }
