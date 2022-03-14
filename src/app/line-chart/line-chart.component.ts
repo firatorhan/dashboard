@@ -51,8 +51,8 @@ export class LineChartComponent {
       chart: {
         toolbar: {
           show: false},
-        height: 280,
-        width:320,
+        height: 204,
+        width:233,
         type: "line",
         zoom: {
           enabled: false

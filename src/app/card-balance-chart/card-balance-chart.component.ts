@@ -50,8 +50,8 @@ export class CardBalanceChartComponent {
         
         toolbar: {
           show: false},
-        height: 220,
-        width:500,
+        height: 160,
+        width:365,
         type: "line",
         zoom: {
           enabled: false

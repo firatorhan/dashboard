@@ -53,7 +53,7 @@ export class FolderComponent  {
         }
       ],
       chart: {
-        height: 306,
+        height: 223,
         type: "line"
       },
       stroke: {

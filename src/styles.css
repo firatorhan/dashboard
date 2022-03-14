@@ -58,7 +58,7 @@ button{
   }
  
 
-html, body { height: 100%; }
+html, body { height: 100%; overflow: hidden; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
@@ -78,4 +78,24 @@ html[data-theme='light'] {
 
 html[data-theme='dark'] {
     --menu-text-color: #fff;
+}
+
+:root {
+    --fontSize-36:34px;
+    --fontSize-30:26px;
+    --fontSize-28:24px;
+    --fonsSize-26:22px;
+    --fontSize-22:18px;
+    --fontSize-20:18px;
+    --fontSize-18:16px;
+    --fontSize-16:14px;
+    --fontSize-14:12px;
+
+    /* --fontWeight-Regular:400;
+    --fontWeight-Medium:500;
+    --fontWeight-SemiBold:600;
+    --fontWeight-Bold:700: */
+
+    --borderRadius:20px;
+    --marginTop-21:21px;
 }

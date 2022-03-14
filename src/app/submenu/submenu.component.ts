@@ -22,7 +22,7 @@ export class SubmenuComponent implements OnInit {
    {photo:"/assets/icons/Ellipse 62.png" ,name: "New members on Payment project", time:"44 minutes ago"},
    {photo:"/assets/icons/Ellipse 63.png" ,name: "Updated activity", time:"2 hours ago"},
    {photo:"/assets/icons/Ellipse 64.png" ,name: "New chart on page visits", time:"3 hours ago"},
-   {photo:"/assets/icons/Ellipse 65.png" ,name: "Project GP", time:"12 hours ago"}
+   
   ]
 
   natifications = [
@@ -31,7 +31,7 @@ export class SubmenuComponent implements OnInit {
     {id: "On Payment  Natification", time:"40 minutes ago"},
     {id: "Natification Updated activity", time:"1 hours ago"},
     {id: "Chart Natification", time:"4 hours ago"},
-    {id: "GP Natification", time:"16 hours ago"}
+    
    ]
 
   activeTextClick(){

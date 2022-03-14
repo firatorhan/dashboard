@@ -1,40 +1,40 @@
 .twoComponent{
-    width: 380px;
+    width: 277px;
     float: left;
 }
 .slimTextWidget{
-    width: 380px;
-    height: 90px;
-    border-radius: 20px;
+    width: 277px;
+    height: 65px;
+    border-radius: var(--borderRadius);
     background-color: #FFF;
     box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
     float: left;
-    margin-bottom: 41px;
+    margin-bottom: 21px;
 }
 .statusWidget{
-    width: 380px;
-    height: 160px;
-    border-radius: 20px;
+    width: 277px;
+    height: 117px;
+    border-radius: var(--borderRadius);
     background-color: #FFF;
     box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
     float: left;
 }
 #More_Button{ 
     position: relative;
-    left: 160px;
-    top: 25px;
+    left: 95px;
+    top: 15px;
     cursor: pointer;
 }
 .text1{
-    font-size: 20x;
+    font-size: var(--fontSize-20);
     font-weight: bold;
     color: #272D3B;
-    margin-top: 26px;
-    margin-left: 32px;
+    margin-top: 10px;
+    margin-left: 23px;
     float: left; 
 }
 .text2{
-    font-size: 14x;
+    font-size: var(--fontSize-14);
     font-weight: 500;
     color: #272D3B; 
 }
@@ -43,17 +43,17 @@
     width: 175px;
 }
 .statusText{
-    font-size: 26px;
+    font-size: var(--fontSize-26);
     font-weight: bold;
-    margin-top: 23px;
+    margin-top: 20px;
 }
 .growthText{
-  font-size: 18px;
+    font-size: var(--fontSize-18);
 }
 .numberText{
-    font-size: 30px;
+    font-size: var(--fontSize-30);
     font-weight: bold;
-    margin-top: 29px;
+    margin-top: 10px;
 }
 .icon{
     position: relative;

@@ -103,8 +103,8 @@ export class HorisontalLineChartComponent  {
       chart: {
         toolbar: {
           show: false},
-        height: 280,
-        width:550,
+        height: 204.4,
+        width:380,
         type: "rangeBar"
       },
       plotOptions: {

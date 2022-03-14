@@ -1,15 +1,13 @@
 .cardBalance{
-    width: 540px;
-    height: 317px;
-    border-radius: 20px;
+    width: 394px;
+    height: 230px;
+    border-radius: var(--borderRadius);
     background-color: #FFF;
     box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
-    
- 
 }
 
 .topLeft{
-    font-size: 26px;
+    font-size: var(--fontSize-26);
     font-weight: bold;
     color: #272D3B;
     width: 100px;
@@ -19,7 +17,7 @@
 
 }
 .text{
-    font-size: 14px;
+    font-size: var(--fontSize-14);
     font-weight: 500;
     color: #272D3B;
     width: 100px;

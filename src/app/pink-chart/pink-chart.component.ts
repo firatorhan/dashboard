@@ -48,8 +48,8 @@ export class PinkChartComponent {
       chart: {
         toolbar: {
           show: false},
-        height: 100,
-        width:350,
+        height: 73,
+        width:280,
         type: "line"
       },
       stroke: {

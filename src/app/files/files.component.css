@@ -2,10 +2,9 @@
     padding-top: 38px;
     padding-left:32px;
     color: #272D3B ;
-    font-size:36px;
+    font-size: var(--fontSize-36);
     font-weight: 700;
     float: left;
-   
     margin-bottom: 32px;
 
 }

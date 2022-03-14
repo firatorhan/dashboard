@@ -37,7 +37,7 @@ export class SlimTextWidgetComponent {
       series: [70],
       
       chart: {
-        height: 185,
+        height: 135,
         type: "radialBar",
       },
       plotOptions: {

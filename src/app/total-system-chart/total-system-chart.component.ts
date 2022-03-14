@@ -27,7 +27,7 @@ export class TotalSystemChartComponent  {
     this.chartOptions = {
       series: [70],
       chart: {
-        height: 350,
+        height: 255,
         type: "radialBar"
       },
       plotOptions: {

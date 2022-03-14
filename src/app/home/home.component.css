@@ -10,7 +10,7 @@ flex-direction: column;
 margin-left: 32px ;
 margin-bottom: 17px;
 margin-right: 37px;
-width: 980px;
+width: 715px;
 }
 
 .chartSide{
@@ -38,12 +38,12 @@ width: 980px;
 }
 
 .rightChart1{
-margin-bottom: 45px;
+margin-bottom: 27px;
 }
 
 .rightColumn{
-    margin-top: 90px;
-    width: 380px;
+    margin-top: 67px;
+    width: 292px;
 }
 .pinkChart{
     margin-bottom: 18px;
@@ -53,4 +53,3 @@ display: flex;
 justify-content: space-between;
 margin-bottom: 24px;
 }
-
