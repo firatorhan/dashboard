@@ -48,3 +48,64 @@
     margin-right: 50px;
 
 }
+@media only screen and (max-width: 765px){
+    .titleText{
+        padding-top: 24px;
+        color: #272D3B ;
+        font-size: var(--fontSize-32);
+        font-weight: 700;
+        float: left;
+        width: fit-content;
+        margin-bottom: 21px;
+    }
+    
+    .welcomeArea{
+        background-color:#fff;
+        width: 90vw;
+        height: 146px;
+        float: left;
+        box-shadow: 0 3px 6px rgba(39, 45, 59, 0.2) ;
+        border-radius: var(--borderRadius)
+    }
+    .welcomeBack{
+        margin-top: 20px;
+        margin-left: 32px;
+        margin-right: 50px;
+        font-size: var(--fontSize-16);
+        font-weight: bold;
+        float: left;
+    }
+    
+    .subText{
+        margin-top: 10px; 
+    }
+    .subText1{
+        list-style-image: url(/assets/icons/Ellipse-180.png);
+        font-weight: 500;
+    
+    }
+    .subText1Li{
+       
+        
+        font-size: var(--fontSize-11);
+        font-weight: 500;
+    }
+    .welcomeImg{
+        float: right;
+        position: relative;
+        width: 15vw;
+        top:2vh;
+        margin-right: 50px;
+        display: none;
+    
+    }
+    .welcomeBack{
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-right: 50px;
+        
+       
+        font-weight: bold;
+        float: left;
+    }
+}

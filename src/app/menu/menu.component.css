@@ -30,14 +30,12 @@
 
   }
   #logo {
-
     margin-top: 36.5px;
     margin-left: 20.5px;
     margin-right: 21px;
     margin-bottom: 60px;
 
   }
-
   .click{
     width: 106.5px;
     height: 16px;
@@ -209,11 +207,15 @@ ul {
   
   .activeMenu{
     width: 100vw;
-    height: 400px;
+    height: 66px;
     background-color: #2D62ED;
-    border-top-left-radius: var(--borderRadius);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: var(--borderRadius);
     border-bottom-left-radius: var(--borderRadius);
     display: block;
+    text-decoration: none;
+ 
   }
   .subMenuOpen{
     /* background-color: #F4F7FE; */
@@ -265,4 +267,175 @@ ul {
   .noClick{
     margin-top: 20px;
   }
+  .profilName {
+    display: none;
+     
+   }
+   .profilStatus{
+     display: none;
+   }
 }
+
+@media only screen and (max-width: 765px){
+  .sideBarLeft{
+    width: 100vw;
+    height: 75px;
+    
+  }
+  .mobilSideBarLeft{
+   width: 100vw;
+    height: 450px;
+    display: block;
+    background-color: #2D62ED;
+    border-bottom-right-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+  }
+  #logo{
+    display: none;
+  }
+  .menu {
+    width: 100vw;
+    height: 75px;
+    background-color: #2D62ED;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+    display: block;
+    text-decoration: none;
+    /* list-style-type: none; */
+  }
+
+  .mobilMenuOpen{
+    width: 765px;
+    height: 550px;
+    background-color: #2D62ED;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+    display: block;
+    text-decoration: none;
+  }
+
+
+  .menuItems{
+    
+  }
+  
+  .activeMenu{
+    width: 100vw;
+    height: 400px;
+    background-color: #2D62ED;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+    
+    text-decoration: none;
+ 
+  }
+  .subMenuOpen{
+    /* background-color: #F4F7FE; */
+    background-color: #F4F7FE;
+    width: 270px;
+    height: 788px;
+    display: none;
+    
+  }
+  .subMenuClose{
+    background-color: #F4F7FE;
+    float: left;
+    width: 270px;
+    height: 788px;
+    visibility: hidden;
+    display: none;
+    
+    
+  }
+  .header-menu{
+   
+    display: column;
+     margin-top: 75px;
+    margin-left: 200px ;
+    
+    /* background-color: #2D62ED;
+    width: 100vw; */
+    
+  }
+  .header-menu ul{
+    display: table-column;
+    
+   
+
+  }
+
+  .header-menu #menu-icon{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    margin-left:15vw;
+    top:25px
+  }
+
+  .openMenuActiveIconText{
+    width: 36.5px;
+    height: 22px;
+    color: white;
+    font-size: var(--fontSize-16);
+    font-weight: 600;
+    float: left;
+    margin-left: 20px;
+    
+    
+  }
+  .openMenuInactiveIconText{
+    height: 22px;
+    color: #96B1F6;
+    font-size: var(--fontSize-16);
+    font-weight: 600;  
+    float: left;
+    
+  }
+
+  .closeMenuIconText{
+    height: 22px;
+    color: #96B1F6;
+    font-size: var(--fontSize-16);
+    font-weight: 600;
+    visibility: hidden;
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+  
+  
+
+
+  #profil {
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    
+  }
+  
+ 
+  .click{
+    margin-right: 0px;
+    display: block;
+    margin-top: 20px;
+    
+  }
+  .noClick{
+    margin-top: 20px;
+  }
+
+  .profilName {
+   display: none;
+    
+  }
+  .profilStatus{
+    display: none;
+  }
+}
+

@@ -1,5 +1,5 @@
-<div class="sideBarLeft">
-  <nav [ngClass]="{'menu': isActive==0,'activeMenu':isActive==1}">
+<div class="sideBarLeft" [ngClass]="{'sideBarLeft': isActive==0, 'mobilSideBarLeft':isActive==1}">
+  <nav [ngClass]="{'menu': isActive==0,'activeMenu':isActive==1}" >
     
     <!-- Logo İconu -->
   <div > 
@@ -16,7 +16,7 @@
       </svg>
       </a>
       <div class="header-menu">
-        <ul>
+        <ul id="menuItems">
           <!-- Home İconu -->
           <li><button routerLink="/home" [ngClass]="{'noClick': forSwitch1==0,'click':forSwitch1==1 }" (click)="homeSwitchClick()" >
             <div>
@@ -107,7 +107,9 @@
           
           <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch5==0}">Settings</div>
         </button></li>
-        <li><svg id="menu-icon" onclick="menuToggle()" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32">
+        
+        </ul>
+        <svg id="menu-icon" (click)="menuClick()" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32">
           <g id="Logo" transform="translate(-464.785 520.904)">
             <g id="Group_125" data-name="Group 125" transform="translate(2 -51)">
               <rect id="Rectangle_82" data-name="Rectangle 82" width="5" height="24" rx="2.5" transform="translate(462.785 -466.904)" fill="#fff" opacity="0.5"/>
@@ -118,8 +120,7 @@
             </g>
           </g>
         </svg>
-        </li>
-        </ul>
+        
         <div>
           <a class="svgIconClick" routerLink="/profil"><img id="profil" src="\assets\icons\Ellipse 1.png" alt=""></a>
           

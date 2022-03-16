@@ -14,12 +14,24 @@ export class MenuComponent implements OnInit {
   forSwitch3 = 0;
   forSwitch4 = 0;
   forSwitch5 = 0;
-  activetext = 0
+  activetext = 0;
+  hamburgerIcon=1;
 
   constructor() { }
 
   ngOnInit(): void {
    
+  }
+  hamburgerMenu(){
+    if(this.hamburgerIcon=1){
+      console.log(this.hamburgerIcon)
+      this.hamburgerIcon=0
+     
+    }else{
+      
+      this.hamburgerIcon==1
+      console.log(this.hamburgerIcon)
+    }
   }
 // Açılır menü başlangıç 
   menuClick(){
@@ -32,7 +44,7 @@ export class MenuComponent implements OnInit {
       this.forSwitch5 = 0;
     }else{
       this.isActive=0;
-      window.location.href= "/home"
+     
       
       
     }

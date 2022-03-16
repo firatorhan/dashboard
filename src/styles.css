@@ -58,7 +58,7 @@ button{
   }
  
 
-html, body { height: 100%; overflow: hidden; }
+html, body { height: 100%; overflow: hidden; width: 100%;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
@@ -82,6 +82,8 @@ html[data-theme='dark'] {
 
 :root {
     --fontSize-36:34px;
+    --fontSize-34:34px;
+    --fontSize-32:32px;
     --fontSize-30:26px;
     --fontSize-28:24px;
     --fonsSize-26:22px;
@@ -105,3 +107,12 @@ html[data-theme='dark'] {
 
     
 }
+@media only screen and (max-width: 765px){
+    .mat-typography{
+        width: 150vw;
+    }
+    html, nav{
+        width: 100vw !important;
+    }
+}
+

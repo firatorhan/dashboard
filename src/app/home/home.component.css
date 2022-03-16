@@ -139,3 +139,62 @@ margin-bottom: 24px;
     
 
 }
+
+@media only screen and (max-width: 765px){
+ 
+    .homeComponent{
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        margin-left: 32px;
+        width: 80vw;
+    }
+    
+    .leftColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32px ;
+    margin-bottom: 17px;
+    margin-right: 37px;
+    width: 80vw;
+    }
+    .chartSide{
+        display: flex;
+       flex-direction: column;
+        
+    }
+    .rightColumn{
+        margin-top: 67px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .noCallanderGroup{
+        display: flex;
+        flex-direction: column;
+        height: fit-content
+    }
+  
+    
+    .pinkChart{
+        margin-bottom: 18px;
+        margin-right: 37px;
+        margin-left: 32px;
+        
+    }
+    .blue-purple-widgets {
+    display: flex;
+    margin-left: 32px;
+    
+    margin-bottom: 24px; 
+    }
+    .blueWidget{
+       margin-right: 165px;
+    }
+    .calenderWidget{ 
+      margin-left: 32px;
+    }
+    
+}
