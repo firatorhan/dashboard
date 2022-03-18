@@ -56,32 +56,36 @@
 
   #profil {
     height: 30px;
-    margin-top: 120px;
-    margin-left: 20px;
-    margin-bottom: auto;
-    float: left;
+    
   }
   .profilName {
     font-weight: 600;
     font-size: var(--fontSize-16);
-    height: 30px;
-    margin-top: 125px;
-    margin-left: 16px;
-    margin-right: 20px;
+    margin-right: 5px;
+    display: block;
     /* margin-bottom: 40px; */
     color: #fff;
-    float: left;
+    
+    
     
   }
   .profilStatus{
     font-weight: 400;
     font-size: var(--fontSize-14);
     height: 20px;
-    margin-left: 16px;
-    margin-right: 20px;
-    margin-bottom: 40px;
     color: #96B1F6;
-    float: left;
+    
+  }
+  .profilElement{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  .profilTexts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
   }
 
   
@@ -249,11 +253,11 @@ ul {
     display: flex;
   }
 
-  #profil {
+  .profilElement {
     height: 30px;
     position: absolute;
     left: 0px;
-    top: -100px;
+    top: -80px;
     
   }
   
@@ -319,9 +323,7 @@ ul {
   }
 
 
-  .menuItems{
-    
-  }
+ 
   
   .activeMenu{
     width: 100vw;
@@ -411,11 +413,11 @@ ul {
   
 
 
-  #profil {
+  .profilElement {
     height: 30px;
     position: absolute;
     left: 0px;
-    top: -100px;
+    top: -80px;
     
   }
   

@@ -8,7 +8,7 @@
          </div>
        
 
-         <div [ngClass]="{'foldersTextActive':textActive1==1, 'foldersText':textActive1==0}" (click)="TopText1Click()">Folders
+         <div [ngClass]="{'foldersTextActive':textActive1==1, 'foldersText':textActive1==0}" (click)="TopText1Click()">{{"topMenuComponent.foldersText" | translate}}
             <svg xmlns="http://www.w3.org/2000/svg" width="18.828" height="10.828" viewBox="0 0 18.828 10.828">
                 <g id="Group_93" data-name="Group 93" transform="translate(17.414 1.414) rotate(90)">
                   <line id="Line_10" data-name="Line 10" x2="8" y2="8" fill="none" stroke="#272d3b" stroke-linecap="round" stroke-width="2"/>
@@ -18,8 +18,8 @@
          </div>
         
          <!-- [ngClass]="{'othersTextActive': textActive2==false, 'othersText':textActive2=true}" -->
-         <div [ngClass]="{'othersTextActive':textActive2==1, 'othersText':textActive2==0}"  (click)="TopText2Click()">Features</div>
-         <div  [ngClass]="{'othersTextActive':textActive3==1, 'othersText':textActive3==0}" (click)="TopText3Click()">Users</div>
+         <div [ngClass]="{'othersTextActive':textActive2==1, 'othersText':textActive2==0}"  (click)="TopText2Click()">{{"topMenuComponent.featuresText" | translate}}</div>
+         <div  [ngClass]="{'othersTextActive':textActive3==1, 'othersText':textActive3==0}" (click)="TopText3Click()">{{"topMenuComponent.usersText" | translate}}</div>
         
 
          <div class="logOutIcon">
@@ -42,12 +42,9 @@
               </div>
               <div>
                      
-                <input class="SearchBar" type="text" placeholder="Search.."  >
+                <input class="SearchBar" type="text" placeholder="Search.." >
             
               </div>
-                
-             
-
      </div>
     </div>
 </div>

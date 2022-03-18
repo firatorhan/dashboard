@@ -20,7 +20,7 @@
     </svg>
       <div>
         <h3 [ngClass]="{'ActivityTextActive':activetext==1, 'ActivityTextInActive':activetext==0}"
-          (click)="activeTextClick()">Activity</h3>
+          (click)="activeTextClick()">{{"subMenuComponent.activityText" |translate}}</h3>
         <svg (click)="activeTextClick()" style="padding-left: 8px;" xmlns="http://www.w3.org/2000/svg" width="24"
           height="24" viewBox="0 0 24 24">
           <g id="Group_98" data-name="Group 98" transform="translate(-368 -208)">
@@ -35,12 +35,12 @@
 
         <h3
           [ngClass]="{'NotificationsTextInActive':activeNatificationsText==0, 'NotificationsTextActive':activeNatificationsText==1}"
-          (click)="natificationsTextClick()">Notifications</h3>
+          (click)="natificationsTextClick()">{{"subMenuComponent.notificationsText" |translate}}</h3>
 
       </div>
       <div class="ActivityTodayArea">
         <div class="dropdown">
-          <span class="todayText">Today</span>
+          <span class="todayText">{{"subMenuComponent.todayText"|translate}}</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="18.828" height="10.828" viewBox="0 0 18.828 10.828">
             <g id="Group_57" data-name="Group 57" transform="translate(17.414 1.414) rotate(90)">
               <line id="Line_10" data-name="Line 10" x2="8" y2="8" fill="none" stroke="#272d3b" stroke-linecap="round"
@@ -51,9 +51,9 @@
           </svg>
 
           <div class="dropdown-content">
-            <div><a class="dropDownText" href="">Yesterday</a></div>
-            <div><a class="dropDownText" href="">Last Week</a></div>
-            <div><a class="dropDownText" href="">Last Month</a></div>
+            <div><a class="dropDownText" href="">{{"subMenuComponent.dropdownYesterday" |translate}}</a></div>
+            <div><a class="dropDownText" href="">{{"subMenuComponent.dropdownLastWeek" |translate}}</a></div>
+            <div><a class="dropDownText" href="">{{"subMenuComponent.dropdownLastMonth"|translate}}</a></div>
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@
               </g>
             </svg>
             </div>
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch1==0}">Home</div>
+          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch1==0}">{{"menuComponent.homeButton"|translate}}</div>
           </button>
           
         </li>
@@ -48,7 +48,7 @@
               
            </div>
             
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch2==0}">Files</div>
+          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch2==0}">{{"menuComponent.filesButton"|translate}}</div>
           </button></li>
            <!-- AppyPie İconu -->
           <li><button routerLink="/pie-chart" class="noClick" (click)="appyPieSwitchClick()">
@@ -66,7 +66,7 @@
               </g>
             </svg>
            </div>
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch3==0}">Charts</div>
+          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch3==0}">{{"menuComponent.chartsButton"|translate}}</div>
         </button></li>
           <!-- Setting-1 İconu -->
           <li><button routerLink="/settings1" class="noClick" (click)="setting1SwitchClick()">
@@ -85,7 +85,7 @@
             </g>
           </svg>
          </div>
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch4==0}">Filter</div>
+          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch4==0}">{{"menuComponent.filterButton"|translate}}</div>
         </button></li>
           <!-- Setting-2 İconu -->
           <li><button routerLink="/settings2" class="noClick" (click)="setting2SwitchClick()">
@@ -105,7 +105,7 @@
             </svg>
            </div>
           
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch5==0}">Settings</div>
+          <div [ngClass]="{'closeMenuIconText': isActive==0, 'openMenuActiveIconText':isActive==1, 'openMenuInactiveIconText':forSwitch5==0}">{{"menuComponent.settingsButton"|translate}}</div>
         </button></li>
         
         </ul>
@@ -121,11 +121,16 @@
           </g>
         </svg>
         
-        <div>
-          <a class="svgIconClick" routerLink="/profil"><img id="profil" src="\assets\icons\Ellipse 1.png" alt=""></a>
-          
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'profilName':isActive==1}">Fırat Orhan</div>
-          <div [ngClass]="{'closeMenuIconText': isActive==0, 'profilStatus':isActive==1}">Active</div>
+        <div class="profilElement"> 
+          <div>
+            <a class="svgIconClick" routerLink="/profil"><img id="profil" src="\assets\icons\Ellipse 1.png" alt=""></a>
+          </div>
+         
+          <div class="profilTexts"> 
+            <div [ngClass]="{'closeMenuIconText': isActive==0, 'profilName':isActive==1}">Fırat Orhan</div>
+            <div [ngClass]="{'closeMenuIconText': isActive==0, 'profilStatus':isActive==1}">{{"menuComponent.profilStatusText"|translate}}</div>
+          </div>
+         
         </div>
        
       </div>

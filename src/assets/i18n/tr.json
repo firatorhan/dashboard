@@ -1,0 +1,115 @@
+{
+    "homeComponent" : {
+        
+    },
+    "menuComponent" : {
+        "homeButton":"Ana Sayfa",
+        "filesButton":"Dosyalar",
+        "chartsButton":"Çizelgeler",
+        "filterButton":"Filtreleme",
+        "settingsButton":"Ayarlar",
+        "profilStatusText":"Aktif"
+        
+    },
+       "welcomeBackComponent": {
+        "title":"Kontrol Paneli",
+        "title1":"Tekrar hoşgeldiniz",
+        "subTitle":"Sisteme son girişinizden beri,:",
+        "notification1":"21 yeni çizelge",
+        "notification2":"15 yeni rapor",
+        "notification3":"45 yeni mesaj"
+       },
+    "topmenuComponent": {
+        "foldersText":"Klasörler",
+        "featuresText":"Özellikler",
+        "usersText":"Kullanıcılar"
+        
+    },
+    "subMenuComponent": {
+        "activityText":"Aktivite",
+        "notificationsText":"Bildirimler",
+        "todayText":"Bugün",
+        "dropdownYesterday":"Dün",
+        "dropdownLastWeek":"Geçen hafta",
+        "dropdownLastMonth":"Geçen ay"
+        
+    },
+    "smallCardPurpleComponent":{
+        "numberText":"41.7B",
+        "monthlyText":"Aylık",
+        "downloadsText":"İndirme"
+    },
+    "smallCardBlueComponent":{
+        "numberText":"2.8B",
+        "monthlyText":"Aylık",
+        "InvoicesText":"Fatura"
+    },
+    "slimTextWidgetComponent": {
+        "numberText":"$223B",
+        "subText":"Bu Ay Kazanılan",
+        "statusText":"Durum",
+        "growthText":"Büyüme"
+        
+    },
+    "settings2Component":{
+        "pageTitle":"Ayarlar"
+    },
+    "settings1Component":{
+        "pageTitle":"Filtreleme"
+    },
+    "profileComponent":{
+        "pageTitle":"Profil"
+    },
+    "filesComponent":{
+        "pageTitle":"Dosyalar"
+    },
+    "pinkChartComponent":{
+        "number":"3.4B",
+        "subText":"Bu Ay"
+    },
+    "pieChartComponent":{
+        "pageTitle":"Çizelgeler"
+    },
+    "lineChartComponent":{
+        "title":"Analitik"
+    },
+    "horisontalLineChartComponent":{
+        "title":"Analitik"
+    },
+    "folderComponent":{
+        "title":"Siparişler",
+        "button1":"Filtre",
+        "button2":"+ Yeni ekle",
+        "tableCustomerText":"müşteri",
+        "tableDateText":"tarih",
+        "tableAmountText":"miktar",
+        "tableStatusText":"durum",
+        "tableTrackingText":"izleme",
+        "rowCompanyName":"Şirket Adı",
+        "rowDate":"22 Haziran 2020",
+        "rowStatus1":"Teslim edilmiş",
+        "rowStatus2":"Beklemede"
+    },
+    "upcomingEventComponent":{
+        "title":"Yaklaşan",
+        "teamMeeting1":"Takım toplantısı",
+        "teamMeeting2":"Takım Toplantısı",
+        "meetWithClient":"Müşteri ile Tanışın",
+        "ampm1":"ÖÖ",
+        "ampm2":"ÖS",
+        "todayText":"Bugün",
+        "dropdownYesterday":"Dün",
+        "dropdownLastWeek":"Geçen Hafta",
+        "dropdownLastMonth":"Geçen Ay"
+    },
+    "totalSystemChartComponent":{
+        "title":"Toplam sistem kullanımı"
+    },
+    "cardBalanceComponent":{
+        "title":"Kart bakiyesi"
+    }
+   
+   
+   
+   
+}

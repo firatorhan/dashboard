@@ -1,4 +1,4 @@
-.titleText{
+.titleText h1{
     padding-top: 24px;
     color: #272D3B ;
     font-size: var(--fontSize-36);
@@ -49,7 +49,7 @@
 
 }
 @media only screen and (max-width: 765px){
-    .titleText{
+    .titleText h1{
         padding-top: 24px;
         color: #272D3B ;
         font-size: var(--fontSize-32);

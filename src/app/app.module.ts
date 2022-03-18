@@ -23,14 +23,16 @@ import { ProfilComponent } from './profil/profil.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatNativeDateModule} from '@angular/material/core';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {MatCardModule} from '@angular/material/card';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HomeComponent } from './home/home.component';
 import { WelcomeBackComponent } from './welcome-back/welcome-back.component';
 import { FilesComponent } from './files/files.component';
 import { MatTableModule } from '@angular/material/table';
-import { TotalSystemChartComponent } from './total-system-chart/total-system-chart.component'  
+import { TotalSystemChartComponent } from './total-system-chart/total-system-chart.component';
+import { TranslateModule, TranslateLoader} from "@ngx-translate/core";
+import { TranslateHttpLoader } from '@ngx-translate/http-loader'; 
 
 
 
@@ -72,6 +74,16 @@ import { TotalSystemChartComponent } from './total-system-chart/total-system-cha
     MatCardModule,
     MatDatepickerModule,
     MatTableModule,
+    HttpClientModule,
+    TranslateModule.forRoot(
+      {
+loader:{
+  provide: TranslateLoader,
+  useFactory: (http:HttpClient)=>{return new TranslateHttpLoader(http,'./assets/i18n/','.json');},
+  deps: [HttpClient]
+}
+      }
+    ),
   
   
     

@@ -1,0 +1,111 @@
+{
+    "homeComponent" : {
+       
+    },
+    "menuComponent":{
+        "homeButton":"Home",
+        "filesButton":"Files",
+        "chartsButton":"Pie Chart",
+        "filterButton":"Filter",
+        "settingsButton":"Settings",
+        "profilStatusText":"Active"
+    },
+
+    "welcomeBackComponent": {
+        "title":"Dashboard",
+        "title1":"Welcome Back",
+        "subTitle":"Since your last login on the system, there were:",
+        "notification1":"21 new charts",
+        "notification2":"15 new reports",
+        "notification3":"45 new messages"
+    },
+    "topMenuComponent": {
+        "foldersText":"Folders",
+        "featuresText":"Features",
+        "usersText":"Users"
+        
+    },
+    "subMenuComponent": {
+        "activityText":"Activity",
+        "notificationsText":"Notifications",
+        "todayText":"Today",
+        "dropdownYesterday":"Yesterday",
+        "dropdownLastWeek":"Last Week",
+        "dropdownLastMonth":"Last Month"
+    },
+    "smallCardPurpleComponent":{
+        "numberText":"41.7K",
+        "monthlyText":"Monthly",
+        "downloadsText":"Downloads"
+    },
+    "smallCardBlueComponent":{
+        "numberText":"2.8K",
+        "monthlyText":"Monthly",
+        "InvoicesText":"Invoices"
+    },
+    "slimTextWidgetComponent": {
+        "numberText":"$223K",
+        "subText":"Earned This Month",
+        "statusText":"Status",
+        "growthText":"Growth"
+        
+    },
+    "settings2Component":{
+        "pageTitle":"Filter"
+    },
+    "settings1Component":{
+        "pageTitle":"Settings"
+    },
+    "profileComponent":{
+        "pageTitle":"Profile"
+    },
+    "filesComponent":{
+        "pageTitle":"Files"
+    },
+    "pinkChartComponent":{
+        "number":"3.4K",
+        "subText":"This Month"
+    },
+    "pieChartComponent":{
+        "pageTitle":"Pie Charts"
+    },
+    "lineChartComponent":{
+        "title":"Analytics"
+    },
+    "horisontalLineChartComponent":{
+        "title":"Analytics"
+    },
+    "folderComponent":{
+        "title":"Orders",
+        "button1":"Filter",
+        "button2":"+ Add New",
+        "tableCustomerText":"customer",
+        "tableDateText":"date",
+        "tableAmountText":"amount",
+        "tableStatusText":"status",
+        "tableTrackingText":"tracking",
+        "rowCompanyName":"Company Name",
+        "rowDate":"22 June 2020",
+        "rowStatus1":"Delivered",
+        "rowStatus2":"Pending"
+    },
+    "upcomingEventComponent":{
+        "title":"Upcoming",
+        "teamMeeting1":"Team Meeting",
+        "teamMeeting2":"Team Meeting",
+        "meetWithClient":"Meet with client",
+        "ampm1":"AM",
+        "ampm2":"PM",
+        "todayText":"Today",
+        "dropdownYesterday":"Yesterday",
+        "dropdownLastWeek":"Last Week",
+        "dropdownLastMonth":"Last Month"
+    },
+    "totalSystemChartComponent":{
+        "title":"Total system usage"
+    },
+    "cardBalanceComponent":{
+        "title":"Card Balance"
+    }
+    
+}

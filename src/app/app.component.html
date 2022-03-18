@@ -1,12 +1,15 @@
 <div class="fullScreen">
   <app-menu></app-menu>
+  <div>
+    <select (click)="selectLang($event.target.value)">
+      <option *ngFor="let item of supportLanguages"> {{item}}</option>
+    </select>
+  </div>
+  </div>
 <div class="mainContentArea">
     
   <!-- componentler buraya gelecek -->
   <router-outlet></router-outlet>
   
-  
-</div>
-
 
 </div>
